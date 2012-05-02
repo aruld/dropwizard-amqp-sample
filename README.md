@@ -1,0 +1,2 @@
+dropwizard-amqp-sample
+======================
