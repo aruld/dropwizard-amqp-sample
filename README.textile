@@ -1,4 +1,4 @@
-h1. DropWizard AMQP Stock Quote Sample App
+h1. DropWizard AMQP Stock Trader Sample App
 
 Sample app publishes messages to RabbitMQ backend. The app is configured with SSL and Basic Auth.
 
