@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tradeRequest>
+  <accountName>ACCT-123</accountName>
+  <buyRequest>true</buyRequest>
+  <id>7f910f85-0890-4937-bcf1-71bfd41ffa8d</id>
+  <orderType>MARKET</orderType>
+  <quantity>100</quantity>
+  <requestId>REQ-1</requestId>
+  <ticker>ORCL</ticker>
+  <userName>Joe</userName>
+</tradeRequest>
