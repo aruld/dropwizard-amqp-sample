@@ -6,7 +6,7 @@ h2. Setup
 
 * git clone https://github.com/aruld/dropwizard-amqp-sample.git
 * mvn package
-* java -jar target/dropwizard-amqp-sample-1.0.jar
+* java -jar target/dropwizard-amqp-sample-1.0.1-SNAPSHOT.jar
 
 h2. Testing
 

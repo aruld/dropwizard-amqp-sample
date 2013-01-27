@@ -1,4 +1,5 @@
 amqp:
+
   host: localhost
   port: 5672
   #username: guest
@@ -8,8 +9,8 @@ amqp:
   #routingKey:
 
 jersey:
-  logTraffic: true
 
+  logTraffic: true
 
 # HTTP-specific options.
 http:
@@ -38,7 +39,7 @@ http:
 
   # The number of threads dedicated to accepting connections. If omitted, this defaults to the
   # number of logical CPUs on the current machine.
-  acceptorThreadCount: 3
+  acceptorThreads: 3
 
   # The offset of the acceptor threads' priorities. Can be [-5...5], with -5 dropping the acceptor
   # threads to the lowest possible priority and with 5 raising them to the highest priority.
@@ -91,7 +92,7 @@ http:
   # bindHost: app1.example.com
 
   ssl:
-    keyStorePath: ./example.keystore
+    keyStore: ./example.keystore
     keyStorePassword: example
 
   # HTTP request log settings
